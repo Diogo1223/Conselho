@@ -1,0 +1,36 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+
+.advice-container{
+  background-image: url(https://media.istockphoto.com/id/954305374/pt/foto/stairs-leading-up-to-heavenly-sky-toward-the-light.jpg?s=612x612&w=0&k=20&c=bRNEi8RM8_htM4FKX1FTn5HmT3AxBQuVNIpG47_41zM=);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-size: cover; /* Ajusta a imagem para cobrir todo o espaço */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.frase{
+  border: 2px solid #3498db; /* Adiciona uma borda azul de 2px */
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 20px; /* Espaço interno */
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
